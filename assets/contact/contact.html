@@ -4,17 +4,17 @@
         <title>UNIFAM</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet/less" type="text/css" href="style.less" />
+        <link rel="stylesheet/less" type="text/css" href="/assets/contact/style.less" />
     </head>
     <body>
         <header>
+            <img src="/images/logo.jpg" alt="logo" width="100px"
+                height="80px">
+            <div class="line-white"></div>
+            <h1>Federal Public University Acacio Martins</h1>
+            <h4>Knowledge is priceless, but its lack is expensive.</h4>
+            <div class="line-white"></div>
             <nav>
-                <div class="line-white">
-                    <img src="/images/logo.jpg" alt="logo" width="100px"
-                        height="80px">
-                    <h1>Federal Public University Acacio Martins</h1>
-                    <h4>Knowledge is priceless, but its lack is expensive.</h4>
-                </div>
                 <a href="/index.html">Home</a>
                 <a href="/assets/about/about.html">About</a>
                 <a href="/assets/contact/contact.html">Contact</a>
@@ -25,17 +25,21 @@
                 will contact you.</h1>
             <img src="pexels-photo-7972712.jpeg" alt="" width="300px"
                 height="400px">
-                <h1>Contact Form</h1>
-            <form action="/action_page.php">
-                <label for="fname">First name:</label>
-                <input type="text" id="fname" name="fname"><br><br>
-                <label for="lname">Last name:</label>
-                <input type="text" id="lname" name="lname"><br><br>
-                <label for="lcourse">Course you want to know more:</label>
-                <input type="text" id="lname" name="lname"><br><br>
-                <input type="submit" value="Submit">
+            <h1>Contact Form</h1>
+            <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" required><br><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" required><br><br>
+                <label for="lcourse">Course you want to know more:</label><br>
+                <input type="text" id="lname" name="lname" required><br><br>
+                <input id="sub" type="submit" value="Submit">
             </form>
         </main>
+        <hr>
+        <footer>
+            Todos os direitos reservados.
+        </footer>
     </body>
     <script src="https://cdn.jsdelivr.net/npm/less"></script>
 
